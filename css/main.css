@@ -325,3 +325,27 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #6070FE;
+}
+
+.contact-form-inputs form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-inputs form > input, textarea, button {
+  margin: 16px 0 0 0;
+  padding: 12px;
+}
