@@ -329,15 +329,33 @@ li {
 .contact-form {
   display: flex;
   justify-content: center;
-  padding: 2rem;
 }
 
 .contact-form-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
-  background-color: #6070FE;
+  color: #fff;
+  margin-top: 100px;
+  padding: 24px 24px 70px 24px;
+  border-radius: 20% 0 0 0;
+  background-color: #6070fe;
+}
+
+.contact-form-description {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-form-description .contact-me-text {
+  padding: 12px 24px;
+  font-size: 20px;
+}
+
+.contact-form-description h2 {
+  font-size: 40px;
+  font-family: 'Poppins';
+  line-height: 52px;
 }
 
 .contact-form-inputs form {
@@ -345,7 +363,22 @@ li {
   flex-direction: column;
 }
 
-.contact-form-inputs form > input, textarea, button {
+.contact-form-inputs form > input,
+textarea,
+button {
   margin: 16px 0 0 0;
   padding: 12px;
+  border-radius: 10px;
+  border: none;
+  height: 48px;
+}
+
+.contact-form-inputs button {
+  width: 30%;
+  color: #6070fe;
+  font-size: 16px;
+}
+
+.contact-form-inputs textarea {
+  height: 170px !important;
 }
