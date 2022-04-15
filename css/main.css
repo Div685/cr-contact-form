@@ -382,3 +382,9 @@ button {
 .contact-form-inputs textarea {
   height: 170px !important;
 }
+
+@media all and (min-width: 720px) {
+  .contact-form-section {
+    padding: 24px 250px;
+  }
+}
